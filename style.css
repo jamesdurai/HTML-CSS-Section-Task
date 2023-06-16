@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media (min-width:320px){
+    .container{
+    width: 100%;
+    margin: auto;
+}
+
+}
+
+@media (min-width:620px){
+    .container{
+    width: 95%%;
+    margin: auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .col {
+    width: 50%;
+  }
+
+}
+
+@media (min-width:1000px){
+    .container {
+        width: 90%;
+        margin: auto;
+        padding: 20px;
+      }
+      .row {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center;
+        margin-bottom: 20px;
+      }
+      .col {
+        width: 25%;
+        padding: 10px;
+      }
+      
+}
+
+section{
+    padding: 85px 0;
+}
+
+
+
+
+
+.head {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.head h2::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #0563bb;
+
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+.head p{
+    padding: 15px 50px;
+    line-height: 25px;
+    font-size: 18px;
+
+}
+
+
+
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.img-sec img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.img-sec{
+    padding-bottom: 10px;
+    position:relative;
+}
+.img-sec h5{
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    color: white;
+    border: 1px solid;
+    padding: 5px;
+    background-color: red;
+    border: none;
+}
+
+h4 {
+  margin: 10px 0;
+}
+
+h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+p {
+  margin: 10px 0;
+}
+
+del {
+  color: gray;
+}
+
+button {
+    position: absolute;
+    left: 45%;
+    padding: 7px;
+    background-color: #3F51B5;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+  }
+
